@@ -24,7 +24,7 @@ var http = require('http');
     }
 
     
-    fs.exists(doc, function fileExists(exists) {
+    fs.exists(filePath, function fileExists(exists) {
 
         if (exists) {
             fs.readFile(filePath, function(error, content) {
