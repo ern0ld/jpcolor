@@ -1,6 +1,7 @@
 var http = require('http');
  var fs = require('fs');
  var path = require('path');
+ require('mailhandler.php');
 
  http.createServer(function (request, response) {
 
