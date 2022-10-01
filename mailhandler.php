@@ -1,3 +1,7 @@
+<!DOCTYPE html>
+<html>
+<body>
+    console.log("yritetään");
 <?php 
 echo "trying to send...";
 if(isset($_POST['submit'])){
@@ -23,3 +27,6 @@ if(isset($_POST['submit'])){
     // You cannot use header and echo together. It's one or the other.
     }
 ?>
+
+</body>
+</html>
