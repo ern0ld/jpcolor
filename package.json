@@ -2,10 +2,10 @@
   "name": "jpcolor",
   "version": "1.0.0",
   "description": "webpage for jpcolor",
-  "main": "js/scripts.js",
+  "main": "index.js",
   "scripts": {
     "test": "test",
-    "start":"node js/scripts.js"
+    "start":"node index.js"
   },
   "repository": {
     "type": "git",
