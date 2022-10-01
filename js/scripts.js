@@ -6,6 +6,7 @@
 //
 // Scripts
 // 
+if (typeof window !== "undefined") {
 
 window.addEventListener('DOMContentLoaded', event => {
 
@@ -52,3 +53,5 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+}
