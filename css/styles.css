@@ -62,6 +62,8 @@
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
   --bs-body-bg: #fff;
+  --bs-body-main:#FCD704;
+  --bs-primary2:#050608;
 }
 
 *,
@@ -99,6 +101,10 @@ hr {
 
 hr:not([size]) {
   height: 1px;
+}
+#logo{
+  background: var(--bs-body-main);
+
 }
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
@@ -3612,6 +3618,9 @@ textarea.form-control-lg {
     right: auto;
     left: 0;
   }
+  #mainNav.navbar-shrink .navbar-brand svg, #mainNav.navbar-shrink .navbar-brand img {
+    height: 2.5rem;
+}
 
   .dropdown-menu-sm-end {
     --bs-position: end;
@@ -11407,9 +11416,7 @@ p {
     font-size: 1.25em;
   }
   #mainNav.navbar-shrink .navbar-brand svg,
-#mainNav.navbar-shrink .navbar-brand img {
-    height: 1.5rem;
-  }
+
   #mainNav .navbar-nav .nav-item {
     margin-right: 1rem;
   }
