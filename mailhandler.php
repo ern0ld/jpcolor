@@ -1,7 +1,3 @@
-<!DOCTYPE html>
-<html>
-<body>
-    console.log("yritetään");
 <?php 
 echo "trying to send...";
 if(isset($_POST['submit'])){
@@ -28,5 +24,3 @@ if(isset($_POST['submit'])){
     }
 ?>
 
-</body>
-</html>
