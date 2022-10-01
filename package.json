@@ -19,6 +19,6 @@
   "homepage": "https://github.com/ern0ld/jpcolor#readme",
   "dependencies": {
     "composer": "^4.1.0",
-    "php": "^1.0.2"
+    "php": "^7.0.0"
   }
 }
