@@ -23,6 +23,7 @@ var http = require('http');
             break;
     }
 
+    
     fs.exists(doc, function fileExists(exists) {
 
         if (exists) {
@@ -41,7 +42,7 @@ var http = require('http');
             response.writeHead(404);
             response.end();
         }
-   
+    });
 
  }).listen(process.env.PORT || 5000)
 
